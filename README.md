@@ -8,7 +8,7 @@ composer require dev-lancer/lazy-file-loader
 
 ## Example
 
-###class LazyCharsLoader
+### class LazyCharsLoader
 ```php
 <?php
     require 'vendor/autoload.php';
@@ -29,7 +29,7 @@ composer require dev-lancer/lazy-file-loader
     print_r($loader->load(11)); //Length: 11, Output: "SOFTWARE."
 ```
 
-###class LazyLineLoader
+### class LazyLineLoader
 ```php
 <?php
     require 'vendor/autoload.php';
