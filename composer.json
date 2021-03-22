@@ -1,0 +1,26 @@
+{
+    "name": "devlancer/lazy-file-loader",
+    "type": "library",
+    "license": "MIT",
+    "description": "",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Jakub Gniecki",
+            "email": "kubuspl@onet.eu"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevLancer\\LazyFileLoader\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DevLancer\\LazyFileLoader\\Tests\\": "tests/"
+        }
+    }
+}
